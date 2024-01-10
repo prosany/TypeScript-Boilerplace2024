@@ -1,8 +1,5 @@
-import env from 'dotenv';
+import 'dotenv';
 import type { Config } from '@/types/common.d';
-
-// Load environment variables
-env.config();
 
 const config: Config = {
   PORT: parseInt(process.env.PORT as string, 10),
