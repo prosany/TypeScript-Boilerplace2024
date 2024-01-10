@@ -1,0 +1,12 @@
+node_modules/
+export/
+
+!.env.example
+.env
+
+yarn.lock
+yarn-error.log
+
+package-lock.json
+
+.DS_Store
